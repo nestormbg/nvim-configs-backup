@@ -2,8 +2,9 @@
 TERM = "xterm-256color"
 
 [window]
-dynamic_title = true
-dynamic_padding = true
+decorations = "Full"
+padding = {x = 10}
+startup_mode = "Maximized"
 
 [colors.primary]
 background = "#1E1E2E"
@@ -82,7 +83,7 @@ index = 17
 color = "#F5E0DC"
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+normal = { family = "JetBrainsMono Nerd Font"} 
 size = 15
 
 
